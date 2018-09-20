@@ -267,6 +267,10 @@ img {
   padding: 0 0 0 0px;
 }
 
+.slider-controls label:hover, .slider-controls label:focus {
+  background-color: rgba(255, 204, 0, 0.8);
+}
+
 #product-1:checked~.container #slide1, #product-2:checked~.container #slide2, #product-3:checked~.container #slide3, #product-4:checked~.container #slide4 {
   display: block;
 }
