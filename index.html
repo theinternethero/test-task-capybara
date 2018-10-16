@@ -39,7 +39,7 @@
           </a>
             <section class="schedule">
               <p class="phone">+7 (495) 728 13 59</p>
-              <a class="button" href="#">Заказать технику</a>
+              <a class="button feedback-link" href="#">Заказать технику</a>
             </section>
           </div>
           <div class="vertical-menu-wrapper">
@@ -267,11 +267,29 @@
       </ul>
       <section class="schedule-footer">
         <p class="phone">+7 (495) 728 13 59</p>
-        <a class="button" href="#">Заказать технику</a>
+        <a class="button feedback-footer-link" href="#">Заказать технику</a>
         <p class="footer-copyright">© ООО "Автодор-М" 2016</p>
       </section>
     </div>
   </footer>
+  <section class="modal-feedback">
+    <h2>Мы вам перезвоним!</h2>
+    <p class="modal-description">Введите пожалуйста свое имя и телефон.</p>
+    <form class="feedback-form" action="#" method="post">
+      <p class="name-item">
+        <label class="visually-hidden" for="user-name">Имя</label>
+        <input id="user-name" type="text" name="name" placeholder="Имя">
+      </p>
+      <p class="phone-item">
+        <label class="visually-hidden" for="user-phone">Телефон</label>
+        <input id="user-phone" type="tel" name="phone" placeholder="Телефон">
+      </p>
+      <button class="button" type="submit">Заказать</button>
+    </form>
+    <button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
+  </section>
+  <div class="modal-overlay"></div>
+  <script src="js/popup.js"></script>
 </body>
 
 </html>
